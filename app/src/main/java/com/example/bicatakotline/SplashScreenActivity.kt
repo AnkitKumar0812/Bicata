@@ -69,8 +69,12 @@ class SplashScreenActivity : AppCompatActivity() {
                 .createSignInIntentBuilder()
                 .setAuthMethodPickerLayout(authMethodPickerLayout)
                 .setTheme(R.style.LoginTheme)
+                .setAvailableProviders(providers)
+                .setIsSmartLockEnabled(false)
+                .build()
+            , LOGIN_REQUEST_CODE)
 
-        )
+
 
     }
 }
