@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "230719311271",
+    "project_id": "bicatakotline",
+    "storage_bucket": "bicatakotline.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230719311271:android:3b66d23df7898d11427a82",
+        "android_client_info": {
+          "package_name": "com.example.bicatakotline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230719311271-rbd7bakc9r9p4die82iphpee66ujl67l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUXFQqYTwpnCVZ0FMBwMzDGwOS5rnSmYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230719311271-rbd7bakc9r9p4die82iphpee66ujl67l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
