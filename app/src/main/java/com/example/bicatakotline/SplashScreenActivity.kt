@@ -13,8 +13,6 @@ class SplashScreenActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         Completable.timer(3, TimeUnit.SECONDS,AndroidSchedulers.mainThread())
-            .subscribe({
-                Toast.makeText(this@SplashScreenActivity,"Splash Screen run done!",Toast.LENGTH_SHORT).show()
-            })
+            .subscribe({ Toast.makeText(this@SplashScreenActivity,"Splash Screen run done!",Toast.LENGTH_SHORT).show() })
     }
 }
